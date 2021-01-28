@@ -53,7 +53,7 @@ while is_playing == True:
     another_question = input('Do you seek another Truth Sight Seer (Yes/No)? ')
     if another_question.lower() == 'yes':
         # store question of cx
-        question = input('What mystery of the universe do you wish to have insight? ')
+        question = input('What mystery of the universe do you wish to have insight? \n')
     else:
         print('\nSee you on the Door that never closes...\n')
         break
