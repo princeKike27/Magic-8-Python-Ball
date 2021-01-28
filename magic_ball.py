@@ -33,7 +33,7 @@ is_playing = True
 # store name of truth seeker
 name = input('What is thy name fortune seeker? ')
 # store question of truth seeker
-question = input('What mystery of the universe do you wish to have insight? ')
+question = input('What mystery of the universe do you wish to have insight? \n')
 
 while is_playing == True:
 
