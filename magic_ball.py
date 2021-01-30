@@ -17,12 +17,12 @@ answers_list = [
                 'Ask again later.',
                 'Better not tell you now.',
                 'My sources say no.',
-                'The Outlook is not so good, you are not ready child.',
+                'The Outlook is not so good, you are not ready.',
                 'Very doubtful.'
                 ]
 
 # Welcome Message
-welcome_mess = 'Welcome to MAGIC 8-BALL, the Artifact that can answer all your existential questions....'
+welcome_mess = 'Welcome to MAGIC 8-BALL, the Artifact that can answer all your questions....'
 print('\n************** MAGIC 8-BALL **************\n')
 print(welcome_mess, '\n')
 print('Let\'s Begin...', '\n')
@@ -47,7 +47,7 @@ while is_playing == True:
 
     # select a random answer from answers_list
     answer = choice(answers_list)
-    print('Hear Star Child ....... The Truth has been revealed!')
+    print('Listen Closely ....... The Truth has been revealed!')
     print(answer, '\n')
 
     # Ask cx if they have another question
