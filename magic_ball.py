@@ -47,6 +47,7 @@ while is_playing == True:
         print(f'\nMagic Ball let us know the answer to {name}\'s question:\n{question}?')
     else:
         print(f'\nMagic Ball let us know the answer to the truth seeker\'s question:\n{question}?')
+    time.sleep(2)
     print('\n************** The Great One has Spoken **************\n')
 
     # select a random answer from answers_list
